@@ -1,0 +1,152 @@
+body{
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+li{
+    margin-left: 40%;
+}
+
+.box1{
+    margin: 30px;
+    height: 150px;
+    width: 150px;
+    background-color: slategrey;
+    animation-name: box1;
+   animation-duration: 2s;
+   animation-timing-function: ease-in;
+   animation-delay: 2s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate-reverse;
+}
+
+@keyframes box1 {
+  100%{
+    transform: skewX(10deg);
+}
+}
+
+
+
+.second{
+    display: flex;
+    justify-content: center;
+}
+
+.box2{
+    background-color: silver;
+    margin: 30px;
+    height: 150px;
+    width: 150px;
+    animation-name: box2;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes box2 {
+   100%{
+       transform: skewY(20deg);
+   } 
+}
+
+
+
+.third{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.box3{
+    margin: 30px;
+    height: 150px;
+    width: 150px;
+    background-color: grey;
+    animation-name: box3;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+   animation-direction: normal;
+}
+@keyframes box3 {
+    100%{
+       transform: rotate(360deg);
+      
+    }
+}
+
+
+
+.fourth{
+    display: flex;
+    justify-content: center;
+}
+
+.box4{
+    margin: 30px;
+    height: 100px;
+    width: 100px;
+   
+}
+.a{
+    background-color: cyan;
+    border: 1px solid black;
+    animation-name: a;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes a {
+    100%{
+      transform: scaleY(2);
+    }
+}
+
+.b{
+    background-color: firebrick;
+    border: 1px solid black;
+    animation-name: b;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes b {
+    100%{
+      transform: scaleX(2);
+    }
+}
+
+.c{
+    background-color: forestgreen;
+    border: 2px solid black;
+    animation-name: c;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes c {
+    100%{
+      transform: rotate(360deg);
+    }
+}

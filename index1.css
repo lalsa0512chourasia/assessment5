@@ -1,0 +1,76 @@
+body{
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+    
+}
+.box{
+    margin: 15px;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+
+.box1{
+    transition: width 2s;
+}
+.box1:hover{
+    width: 300px;
+}
+
+.box2{
+    transition: width 2s, height 2s;
+}
+.box2:hover{
+    width: 300px;
+    height: 300px;
+}
+
+.box3{
+    transition: width 2s linear;
+}
+.box3:hover{
+    width: 300px;
+}
+
+.box4{
+    transition: width 2s ease;
+}
+.box4:hover{
+    width: 300px;
+}
+
+.box5{
+    transition: width 2s ease-in;
+}
+.box5:hover{
+    width: 300px;
+}
+
+.box6{
+    transition: width 2s ease-out;
+}
+.box6:hover{
+    width: 300px;
+}
+
+.box7{
+    transition: width 2s ease-in-out;
+}
+.box7:hover{
+    width: 300px;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
