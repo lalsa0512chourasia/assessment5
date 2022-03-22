@@ -16,7 +16,6 @@ body{
 }
 
 .text{
-   
     font-size: 50px;
     display: flex;
     gap: 20px;
@@ -41,7 +40,7 @@ body{
    position: absolute;
    left: 0px;
    bottom: 300px;
-   background-image: url(../images/city.png);
+   background-image: url(./images5/city.png);
    background-repeat: repeat-x;
    /* animation: city 2s linear 0s infinite reverse fill-mode; */
    animation-name: city;
@@ -56,7 +55,7 @@ body{
     }
 }
 .road{
-    background-image: url(../images/road.jpg);
+    background-image: url(./images5/road.jpg);
     background-repeat: repeat-x;
     height: 40%;
     width: 500%;
@@ -133,15 +132,12 @@ body{
 .sun{
     position: absolute;
     top: 20px;
-    right: 60px;
-  
-   
+    right: 60px; 
 }
 
 .sun img{
     height: 120px;
     width: 120px;
-   
 }
 
 .flag{
@@ -153,5 +149,4 @@ body{
 .flag img{
     height: 80px;
     width: 80px;
-   
 }
