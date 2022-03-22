@@ -40,7 +40,7 @@ body{
    position: absolute;
    left: 0px;
    bottom: 300px;
-   background-image: url(./images5/city.png);
+   background-image: url(./images/city.png);
    background-repeat: repeat-x;
    /* animation: city 2s linear 0s infinite reverse fill-mode; */
    animation-name: city;
@@ -55,7 +55,7 @@ body{
     }
 }
 .road{
-    background-image: url(./images5/road.jpg);
+    background-image: url(./images/road.jpg);
     background-repeat: repeat-x;
     height: 40%;
     width: 500%;
